@@ -87,7 +87,7 @@ namespace Stride.BepuPhysics.Processors
                 if (!bepuSim.Enabled)
                     continue;
 
-                var totalTimeStepInMillisec = dt * bepuSim.TimeWarp; //Calculate the theoretical time step of the simulation
+                var totalTimeStepInMillisec = dt * bepuSim.TimeWrap; //Calculate the theoretical time step of the simulation
                 bepuSim.RemainingUpdateTime += totalTimeStepInMillisec; //Add it to the counter
 
                 int stepCount = 0;

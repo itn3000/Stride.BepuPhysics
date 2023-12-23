@@ -38,8 +38,8 @@ public class BepuSimulation
 
     [Display(0, "Enabled")]
     public bool Enabled { get; set; } = true;
-    [Display(1, "TimeWarp")]
-    public float TimeWarp { get; set; } = 1f;
+    [Display(1, "TimeWrap")]
+    public float TimeWrap { get; set; } = 1f;
 
     [Display(11, "UsePerBodyAttributes")]
     public bool UsePerBodyAttributes //Warning, set this to false can disable some features used by components.

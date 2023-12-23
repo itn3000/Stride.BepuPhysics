@@ -24,7 +24,7 @@ Defaults:
     - !Stride.BepuPhysics.Configurations.BepuConfiguration,Stride.BepuPhysics
         BepuSimulations:
             -   Enabled: true
-                TimeWarp: 1.0
+                TimeWrap: 1.0
                 UsePerBodyAttributes: true
                 PoseGravity: {X: 0.0, Y: -9.8, Z: 0.0}
                 PoseLinearDamping: 0.05
@@ -35,7 +35,7 @@ Defaults:
                 SimulationFixedStep: 17.0
                 MaxStepPerFrame: 2
             -   Enabled: true
-                TimeWarp: 1.0
+                TimeWrap: 1.0
                 UsePerBodyAttributes: true
                 PoseGravity: {X: 0.0, Y: -30.0, Z: 0.0}
                 PoseLinearDamping: 0.05
@@ -46,7 +46,7 @@ Defaults:
                 SimulationFixedStep: 16.0
                 MaxStepPerFrame: 3
             -   Enabled: true
-                TimeWarp: 1.0
+                TimeWrap: 1.0
                 UsePerBodyAttributes: false
                 PoseGravity: {X: 0.0, Y: -9.8, Z: 0.0}
                 PoseLinearDamping: 0.05
